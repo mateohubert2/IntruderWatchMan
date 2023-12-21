@@ -6,7 +6,7 @@ Liste des machines :
 * [BasicPentesting](https://tryhackme.com/room/basicpentestingjt)
 * [HAJokerCTF](https://tryhackme.com/room/jokerctf)
 * [Wonderland](https://tryhackme.com/room/wonderland)
-* [AgentSudo](https://tryhackme.com/room/agentsudoctf})
+* [AgentSudo](https://tryhackme.com/room/agentsudoctf)
 * [BrooklynNineNine](https://tryhackme.com/room/brooklynninenine)
 * [Overpass3](https://tryhackme.com/room/overpass3hosting)
 
