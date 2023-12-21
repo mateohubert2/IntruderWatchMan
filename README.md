@@ -17,7 +17,7 @@ sur le système d’exploitation d’un ordinateur distant.
 * [Dirbuster](https://www.kali.org/tools/dirbuster/) : Bruteforce des répertoires et des fichiers d’un site web (en interface graphique).
 * [Hydra](https://www.kali.org/tools/hydra/) : Brutforce différents protocoles comme le ssh etc...
 * [Hashcat](https://hashcat.net/hashcat/) : Déchiffre les mots de passe à partir de hash.
-* [Nikto](https://www.kali.org/tools/nikto/}) : Scan la sécurité d’un serveur web.
+* [Nikto](https://www.kali.org/tools/nikto/) : Scan la sécurité d’un serveur web.
 * [Stegseek](https://github.com/RickdeJager/stegseek) : Extrait des données cachées dans un fichier (un zip dans un jpeg etc...).
 * [Steghide](https://steghide.sourceforge.net) : Complémentaire à Stegseek.
 * [linpeas](https://github.com/carlospolop/PEASS-ng/tree/master/linPEAS) : Énumère les différentes failles potentielles pour des tentatives d’escalade de privi-
