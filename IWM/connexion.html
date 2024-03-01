@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Connexion au site</title>
+</head>
+<body onload="document.getElementById('loginForm').submit()">
+    <form id="loginForm" action="http://10.10.47.208/content/as/index.php?type=signin" method="post">
+        <label for="user">Nom d'utilisateur:</label><br>
+        <input type="text" id="user" name="user" value="manager"><br>
+        <label for="passwd">Mot de passe:</label><br>
+        <input type="password" id="passwd" name="passwd" value="Password123"><br><br>
+        <input type="submit" value="Connexion">
+    </form>
+</body>
+</html>
