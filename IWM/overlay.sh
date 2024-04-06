@@ -22,4 +22,7 @@ cat << "EOF"
 |_____|_| |_|\__|_|   \__,_|\__,_|\___|_|    \/  \/ \__,_|\__\___|_| |_|_|  |_|\__,_|_| |_|
 EOF
 
-echo -e "\n\n Welcome to IntruderWatchMan, an automated pentesting program. \n\n Please use this program only for machines \n on which you are authorized to operate. \n\n Creators: HUBERT Matéo, BOUQUILLON Erwan, SOULAIROL Lilian. \n\n mateo_hubert@etu.u-bourgogne.fr \n erwan_bouquillon@etu.u-bougogne.fr\n lilian_soulairol@etu.u-bourgogne.fr \n"
+echo -e "\n\n Welcome to IntruderWatchMan, an automated pentesting program. \n\n Please use this program only for machines \n
+ on which you are authorized to operate. \n\n 
+ Creators: HUBERT Matéo, BOUQUILLON Erwan, SOULAIROL Lilian. 
+ \n\n mateo_hubert@etu.u-bourgogne.fr \n erwan_bouquillon@etu.u-bougogne.fr \n lilian_soulairol@etu.u-bourgogne.fr \n"

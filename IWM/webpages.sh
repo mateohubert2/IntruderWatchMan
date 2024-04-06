@@ -29,8 +29,6 @@ then
 			curl -s $url$file
 			echo "------------------------------"
 		done
-		############################################################
-		#Image files
 		image_file=$(echo "$page_content" | grep -oE "[^\"]*\.jpg")
 		IFS=$'\n' read -rd '' -a image_array <<< $image_file
 		for img in ${image_array[@]}
@@ -47,6 +45,5 @@ then
 		tr '\n' ' ' < cat_$name | tr -s ' ' | awk '!a[$0]++' > tmp_wordlists_$machine
 		tr 'A-Z' 'a-z' < tmp_wordlists_$machine >> wordlists_$machine
 		done
-		############################################################
 	done
 fi

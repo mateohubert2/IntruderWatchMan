@@ -5,7 +5,6 @@ IP_address=$(cat IP_address)
 machine=$(cat machine)
 ssh_true=$(grep -c "ssh" scan_nmap_"$machine"_grep)
 
-###############################################################
 #Testing brutforce for potential users
 IFS=$'\n' read -rd '' -a wordlists_array <<< $(cat wordlists_$machine)
 tr ' ' '\n' < wordlists_$machine > vertical_wordlists_$machine
@@ -22,4 +21,3 @@ do
 		rm password_$potential_usr
 	fi
 done
-###############################################################
