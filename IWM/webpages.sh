@@ -6,10 +6,10 @@ machine=$(cat machine)
 http_true=$(grep -c "http" scan_nmap_"$machine"_grep)
 if [ $http_true -gt 0 ]
 then
-	echo -e "\n Starting gobuster on $machine"
-	gobuster dir -w /usr/share/wordlists/dirb/common.txt -x php,txt,html -u http://$IP_address > gobuster_$machine
-	cat gobuster_$machine
-	urls=$(grep -Eo '(http|https)://[^]"]+' gobuster_$machine)
+	echo -e "\n Starting feroxbuster on $machine"
+	feroxbuster -u http://$IP_address --depth 5 --wordlist /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt > feroxbuster_$machine
+	cat feroxbuster_$machine
+	urls=$(grep -Eo 'http://[^ ]*/$' feroxbuster_$machine)
 	echo "URL : $urls"
 
 	#Retrieves the contents of all web pages
