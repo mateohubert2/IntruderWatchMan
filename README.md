@@ -39,5 +39,6 @@ Exemple de flag : b53a02f55b57d4439e3341834d70c062_
 
 # Installation
 Pour installer tous les packets nécéssaires, exécuter le script install.sh.
-
+Pour utiliser le programme, déplacez-vous dans le dossier IWM et lancer iwm.sh.
 # Fonctionnement
+![deroulementfond](https://github.com/mateohubert2/IntruderWatchMan/assets/104895927/89da641c-d4b5-40df-9e28-e42913370749)
