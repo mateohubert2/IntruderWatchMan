@@ -36,3 +36,8 @@ face à des attaques informatiques._
 
 _(2) : Un flag est une suite de caractères prouvant l’intrusion à différents niveaux de sécurité.
 Exemple de flag : b53a02f55b57d4439e3341834d70c062_
+
+# Installation
+Pour installer tous les packets nécéssaires, exécuter le script install.sh.
+
+# Fonctionnement
